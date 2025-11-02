@@ -1,0 +1,17 @@
+# Dependency
+/node_modules
+/package-lock.json
+
+# Secrets & Config
+.env
+
+# Database & Cache
+users.json
+npm-debug.log*
+*.log
+.DS_Store
+
+# Custom Assets
+# Kita tidak perlu mengunggah ffmpeg.exe atau yt-dlp.exe yang besar
+/node_modules/ffmpeg-static/
+/node_modules/youtube-dl-exec/
